@@ -41,6 +41,7 @@
 
 <details open="open">
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 
