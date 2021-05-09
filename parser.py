@@ -2,7 +2,7 @@
 import pandas as pd
 
 # The webpage URL whose table we want to extract
-url = ""
+url = "https://phystech-server.herokuapp.com/"
 
 # Assign the table data to a Pandas dataframe
 table = pd.read_html(url)[0]
