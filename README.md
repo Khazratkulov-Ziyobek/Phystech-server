@@ -45,16 +45,20 @@
 <summary><h2 style="display: inline-block">About the Project</h2></summary>
 
 
-This project Student Managment Systems. It is just first version. This project is a student data registration. The project is homework Python programming practice Review_2.\
-<h6>Project deployed on Heroku, link <a href="https://phystech-server.herokuapp.com/home">here</a>
+This project Student Managment Systems. It is just first version. This project is a student data registration. The project is homework Python programming practice Review_2.
 
-You should enter your information and they will appear on main page. A detailed example is shown below:
+Project deployed on Heroku, link <a href="https://phystech-server.herokuapp.com/home">here</a>\
 
+You should enter your information and they will appear on main page. A detailed example is shown below:\
+<br>
 ![picture](images/Screenshot.png)
+<br>
 ![picture](images/Screenshot1.png)
+<br>
 ![picture](images/Screenshot2.png)
+<br>
 ![picture](images/Screenshot3.png)
-
+<br>
 
 ### Description content of the code
 * Directories:\
