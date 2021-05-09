@@ -42,7 +42,7 @@
 <details open="open">
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+<summary><h2 style="display: inline-block">About the Project</h2></summary>
 
 
 This project Student Managment Systems. It is just first version. This project is a student data registration. The project is homework Python programming practice Review_2.\
