@@ -110,10 +110,14 @@ Here I am parsing the table of the currently scored points of the current season
   ```sh
     Type "python parse.py".
   ```
-Then you can see: 
+Then you can see:
+  <br>
+
   ![picture](images/Screenshot_6.png)
 
 After choosing a certain league, You can see the points scored in the current round of each team: 
+  <br>
+
   ![picture](images/Screenshot_8.png)
   ![picture](images/Screenshot_9.png)
 
