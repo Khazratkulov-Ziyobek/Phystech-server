@@ -20,18 +20,18 @@
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project and Usage</a>
+      <a href="#about-the-project-and-usage">About the project and usage</a>
       <ul>
-        <li><a href="#description">Description content of the code</a></li>
+        <li><a href="#description-content-of-the-code">Description content of the code</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#parse">Parsing table and testing</a>
+      <a href="#parsing-and-testing">Parsing and testing</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#parse">Parsing table</a></li>
-        <li><a href="#test">Testing</a></li>
+        <li><a href="#parsing">Parsing</a></li>
+        <li><a href="#testing">Testing</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -41,8 +41,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-<details open="open">
-<summary><h2 style="display: inline-block">About the Projectand Usage</h2></summary>
+## About the project and usage
 
 
 This project Student Managment Systems. It is just first version. This project is a student data registration. The project is homework Python programming practice Review_2.
@@ -65,28 +64,27 @@ You should enter your information and they will appear on main page. A detailed 
 ### Description content of the code
 * Directories:\
     <b>images</b> - the directory, where the pictures are located.\
-    <b>templates</b> - the directory, where the html files are located\
+    <b>templates</b> - the directory, where the html files are located
 * Files:\
     <b>Profile, requirements.txt, runtime.txt, uwsgi.ini</b> - files, which is used for deploying on heroku.\
     <b>app.py</b> - main executable file on project\
-    <b>parser.py</b> - file that parses the student data table and creates a file on which all the information appears\
+    <b>parser.py</b> - file that parses the site [SkySports](https://www.skysports.com/) Football League Competition tables\
     <b>test.py</b> - file for testing our project\
     <b>student_data.db</b> - the database on which all the data is located
+
 
 
 ### Built with
 * [Bootstrap](https://getbootstrap.com) - free set of tools for creating websites and web applications.
 * [Flask](https://palletsprojects.com/p/flask/) - framework for creating web applications in the Python programming language
 * [Flask_SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) - this is a set of SQL tools for Python
-* [Pandas](https://pandas.pydata.org/docs/) - software library in Python for data processing and analysis.Used to parse a table from the main page
 * [Unittest](https://docs.python.org/3/library/unittest.html) - testing tool in Python
-
-</details>
+* [requests](https://pypi.org/project/requests/) - this is a Python HTTP library
+* [bs4](https://pypi.org/project/beautifulsoup4/) - it is a Python package for parsing HTML and XML documents
 
 
 <!-- PARSING AND TESTING -->
-<details open="open">
-<summary><h2 style="display: inline-block">Parsing table and testing</h2></summary>
+## Parsing and testing
 
 ### Installation
 
@@ -100,24 +98,24 @@ You should enter your information and they will appear on main page. A detailed 
     ```sh
     - pip install flask
     - pip install flask_sqlalchemy
-    - pip install pandas
     - pip install lxml
     - pip install openpyxl
     - pip install unittest
+    - pip install requests
+    - pip install bs4
     ```
-### Parsing table
+### Parsing
+Here I am parsing the table of the currently scored points of the current season Football Leagues from an external site [SkySports](https://www.skysports.com/). 
+
   ```sh
     Type "python parse.py".
   ```
-Then'student_data.xlsx' appears:
-    <br>
+Then you can see: 
+  ![picture](images/Screenshot_6.png)
 
-![picture](images/Screenshot6.jpg)
-
-Finally, we can see table from this file:
-    <br>
-
-![picture](images/Screenshot7.jpg)
+After choosing a certain league, You can see the points scored in the current round of each team: 
+  ![picture](images/Screenshot_8.png)
+  ![picture](images/Screenshot_9.png)
 
 
 ### Testing
@@ -129,8 +127,7 @@ For testing type "python test.py"
 
 
 <!-- CONTACT -->
-<details open="open">
-<summary><h2 style="display: inline-block">Contact</h2></summary>
+## Contact
 
 Telegram account  - [@Khazratkulov_Z](https://web.telegram.org/#/login)
 
