@@ -12,7 +12,7 @@ app.register_blueprint(la_liga)
 app.register_blueprint(bundesliga)
 app.register_blueprint(serie_a)
 app.register_blueprint(ligue_1)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///student_data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
 db = SQLAlchemy(app)

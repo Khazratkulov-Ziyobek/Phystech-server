@@ -6,7 +6,7 @@
   </a>
 
   <a href="https://phystech-server.herokuapp.com/home">
-    <h3 align="center">Student Managment Systems 1.0</h3>
+    <h3 align="center">Student Managment Systems 1.3</h3>
   </a>
   <p align="center">
     by Khazratkulov Ziyobek
@@ -30,7 +30,7 @@
       <a href="#parsing-and-testing">Parsing and testing</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#parsing">Parsing</a></li>
+        <li><a href="#scraping">Scraping</a></li>
         <li><a href="#testing">Testing</a></li>
       </ul>
     </li>
@@ -44,21 +44,23 @@
 ## About the project and usage
 
 
-This project Student Managment Systems. It is just first version. This project is a student data registration. The project is homework Python programming practice Review_2.
+This project Student Managment Systems. It is just 1 version. This project is a student data registration. The project is homework Python programming practice Review_2.
 
 Project deployed on Heroku, link <a href="https://phystech-server.herokuapp.com/home">here</a>
 
 You should enter your information and they will appear on main page. A detailed example is shown below:\
 <br>
-![picture](images/Screenshot.png)
+![picture](images/Screenshot_1.png)
 <br>
-![picture](images/Screenshot1.png)
+![picture](images/Screenshot_2.png)
 <br>
-![picture](images/Screenshot2.png)
+![picture](images/Screenshot_3.png)
 <br>
-![picture](images/Screenshot3.png)
+![picture](images/Screenshot_4.png)
 <br>
-![picture](images/Screenshot5.png)
+![picture](images/Screenshot_5.png)
+<br>
+![picture](images/Screenshot_6.png)
 <br>
 
 ### Description content of the code
@@ -68,7 +70,6 @@ You should enter your information and they will appear on main page. A detailed 
 * Files:\
     <b>Profile, requirements.txt, runtime.txt, uwsgi.ini</b> - files, which is used for deploying on heroku.\
     <b>app.py</b> - main executable file on project\
-    <b>parser.py</b> - file that parses the site [SkySports](https://www.skysports.com/) Football League Competition tables\
     <b>test.py</b> - file for testing our project\
     <b>student_data.db</b> - the database on which all the data is located
 
@@ -83,8 +84,8 @@ You should enter your information and they will appear on main page. A detailed 
 * [bs4](https://pypi.org/project/beautifulsoup4/) - it is a Python package for parsing HTML and XML documents
 
 
-<!-- PARSING AND TESTING -->
-## Parsing and testing
+<!-- SCRAPING AND TESTING -->
+## Scraping and testing
 
 ### Installation
 
@@ -104,23 +105,27 @@ You should enter your information and they will appear on main page. A detailed 
     - pip install requests
     - pip install bs4
     ```
-### Parsing
-Here I am parsing the table of the currently scored points of the current season Football Leagues from an external site [SkySports](https://www.skysports.com/). 
-
-  ```sh
-    Type "python parse.py".
-  ```
-Then you can see:
-  <br>
-
-  ![picture](images/Screenshot_6.png)
-
-After choosing a certain league, You can see the points scored in the current round of each team: 
-  <br>
-
-  ![picture](images/Screenshot_8.png)
-  ![picture](images/Screenshot_9.png)
-
+### Scraping
+Here I am scraping the table results of the current season Football Leagues from website [SkySports](https://www.skysports.com/). 
+<br>
+![picture](images/Screenshot_7.png)
+<br>
+<br>
+![picture](images/Screenshot_8.png)
+<br>
+<br>
+![picture](images/Screenshot_9.png)
+<br>
+<br>
+![picture](images/Screenshot_10.png)
+<br>
+<br>
+![picture](images/Screenshot_11.png)
+<br>
+<br>
+![picture](images/Screenshot_12.png)
+<br>
+<br>
 
 ### Testing
 ```sh
