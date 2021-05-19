@@ -44,7 +44,7 @@
 ## About the project and usage
 
 
-This project Student Managment Systems. It is just 1 version. This project is a student data registration. The project is homework Python programming practice Review_2.
+This project Student Managment Systems. It is just 1.3 version. This project is a student data registration. The project is homework Python programming practice Review_2.
 
 Project deployed on Heroku, link <a href="https://phystech-server.herokuapp.com/home">here</a>
 
