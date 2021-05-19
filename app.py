@@ -1,8 +1,17 @@
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
-
+from premier_league import premier_league
+from la_liga import la_liga
+from bundesliga import bundesliga
+from serie_a import serie_a
+from ligue_1 import ligue_1
 
 app = Flask(__name__)
+app.register_blueprint(premier_league)
+app.register_blueprint(la_liga)
+app.register_blueprint(bundesliga)
+app.register_blueprint(serie_a)
+app.register_blueprint(ligue_1)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///student_data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
@@ -40,9 +49,13 @@ def add_student():
         db.session.add(new_data)
         db.session.commit()
         return render_template("add_success.html")
-
     else:
         return render_template("add_student.html")
+
+
+@app.route('/scraping')
+def scraping():
+    return render_template("scraping.html")
 
 
 if __name__ == '__main__':
